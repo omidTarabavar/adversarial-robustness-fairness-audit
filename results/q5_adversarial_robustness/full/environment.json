@@ -1,0 +1,19 @@
+{
+  "seed": 42,
+  "execution_mode": "full",
+  "force_retrain_all": true,
+  "python": "3.12.9 | packaged by conda-forge | (main, Feb 14 2025, 08:00:06) [GCC 13.3.0]",
+  "platform": "Linux-6.8.0-136-generic-x86_64-with-glibc2.39",
+  "torch": "2.6.0+cu126",
+  "torchvision": "0.21.0+cu126",
+  "torchattacks": "3.5.1",
+  "captum": "0.9.0",
+  "numpy": "2.0.2",
+  "pandas": "2.2.3",
+  "scipy": "1.15.2",
+  "device": "cuda",
+  "gpu": "NVIDIA GeForce RTX 3090",
+  "gpu_total_memory_gib": 23.56878662109375,
+  "dataloader_workers": 4,
+  "pin_memory": true
+}

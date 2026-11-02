@@ -1,0 +1,37 @@
+{
+  "dataset": "fashion_mnist",
+  "selection_split": "heldout_validation_from_official_train",
+  "official_test_used_for_selection": false,
+  "validation_dataset_size": 10000,
+  "search_samples": 10000,
+  "strongest_validation_configuration": {
+    "search_split": "heldout_validation_from_official_train",
+    "official_test_used_for_selection": false,
+    "validation_dataset_size": 10000,
+    "search_samples": 10000,
+    "epsilon": 0.03137254901960784,
+    "alpha": 0.00784313725490196,
+    "steps": 40,
+    "restarts": 3,
+    "gradient_steps_per_sample": 120,
+    "robust_accuracy": 0.6359,
+    "mean_linf": 0.03137257690429687,
+    "n_samples": 10000,
+    "attack_seconds": 7.2158970609998505
+  },
+  "compute_aware_validation_configuration": {
+    "search_split": "heldout_validation_from_official_train",
+    "official_test_used_for_selection": false,
+    "validation_dataset_size": 10000,
+    "search_samples": 10000,
+    "epsilon": 0.03137254901960784,
+    "alpha": 0.011764705882352941,
+    "steps": 10,
+    "restarts": 3,
+    "gradient_steps_per_sample": 30,
+    "robust_accuracy": 0.6407,
+    "mean_linf": 0.03137257690429687,
+    "n_samples": 10000,
+    "attack_seconds": 1.9583016700016742
+  }
+}

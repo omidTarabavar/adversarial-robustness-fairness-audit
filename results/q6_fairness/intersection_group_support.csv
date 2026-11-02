@@ -1,0 +1,11 @@
+group,n,positive_count,retained
+Male | White,5699,1804,True
+Female | White,2649,315,True
+Male | Black,480,91,True
+Female | Black,464,30,True
+Male | Asian-Pac-Islander,190,63,True
+Female | Asian-Pac-Islander,114,15,True
+Male | Amer-Indian-Eskimo,62,4,True
+Male | Other,49,9,True
+Female | Amer-Indian-Eskimo,42,5,True
+Female | Other,20,2,False

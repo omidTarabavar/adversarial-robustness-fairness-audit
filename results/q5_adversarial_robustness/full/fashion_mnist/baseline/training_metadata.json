@@ -1,0 +1,15 @@
+{
+  "optimizer": "Adam",
+  "effective_learning_rate": 0.003,
+  "weight_decay": 0.0001,
+  "momentum": 0.0,
+  "epochs": 8,
+  "batch_size": 2048,
+  "clean_loss_weight": 0.0,
+  "adversarial_training": false,
+  "seed": 42,
+  "epoch_monitoring_split": "held_out_validation",
+  "official_test_evaluated_each_epoch": true,
+  "official_test_role": "reporting_only_not_used_for_any_training_or_selection_decision",
+  "loss_definition": "train_loss, validation_loss, and test_loss are clean evaluation-mode cross-entropy losses; train_objective_loss is the optimization loss."
+}

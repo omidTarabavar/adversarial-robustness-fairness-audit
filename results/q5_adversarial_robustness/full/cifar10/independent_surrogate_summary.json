@@ -1,0 +1,11 @@
+{
+  "model": "independent_surrogate",
+  "architecture": "CifarSurrogateCNN",
+  "trained_from_scratch": true,
+  "loaded_target_weights": false,
+  "seed": 42,
+  "train_batch_size": 1024,
+  "clean_test_accuracy": 0.885,
+  "clean_test_loss": 0.34245952911376953,
+  "test_samples": 10000
+}

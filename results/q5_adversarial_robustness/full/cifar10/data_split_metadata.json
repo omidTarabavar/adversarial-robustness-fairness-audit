@@ -1,0 +1,15 @@
+{
+  "dataset": "cifar10",
+  "seed": 42,
+  "official_training_partition_size": 50000,
+  "model_training_size": 49488,
+  "validation_size": 512,
+  "official_test_partition_size": 10000,
+  "evaluated_test_size": 10000,
+  "validation_source": "held_out_from_official_training_partition",
+  "split_is_stratified": true,
+  "official_test_used_for_gradient_updates": false,
+  "official_test_evaluated_each_baseline_epoch": true,
+  "official_test_used_for_model_selection": false,
+  "official_test_used_for_pgd_grid_selection": false
+}

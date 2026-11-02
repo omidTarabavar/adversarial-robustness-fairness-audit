@@ -1,0 +1,15 @@
+# Recommended Python version: 3.12.9
+# For the older environment, Python 3.10.20 was also reported.
+
+--extra-index-url https://download.pytorch.org/whl/cu126
+
+numpy==2.2.6
+pandas==2.3.3
+scipy==1.15.2
+scikit-learn==1.7.2
+shap==0.49.1
+
+torch==2.6.0+cu126
+torchvision==0.21.0+cu126
+torchattacks==3.5.1
+captum==0.9.0

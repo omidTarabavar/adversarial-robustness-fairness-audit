@@ -1,0 +1,117 @@
+{
+  "notebook_version": "corrected_v7_final_fashion2048_cifar1024",
+  "seed": 42,
+  "execution_mode": "full",
+  "force_retrain_all": true,
+  "datasets": [
+    "fashion_mnist",
+    "cifar10"
+  ],
+  "hardware_profile": {
+    "target_gpu": "NVIDIA RTX 3090 class / 24 GB VRAM",
+    "host_ram": "32 GB",
+    "batch_sizes": {
+      "fashion_mnist": 2048,
+      "cifar10": 1024
+    },
+    "dataloader_workers": 4,
+    "tf32_enabled": true
+  },
+  "data_protocol": {
+    "validation_source": "held_out_from_official_training_partition",
+    "split_is_stratified": true,
+    "validation_sizes": {
+      "fashion_mnist": 10000,
+      "cifar10": 512
+    },
+    "official_test_evaluated_each_baseline_epoch": true,
+    "official_test_metrics_role": "reporting_only",
+    "official_test_used_for_model_selection": false,
+    "official_test_used_for_pgd_selection": false
+  },
+  "baseline_epoch_curves": {
+    "integrated_into_main_training": true,
+    "separate_replay_required": false,
+    "train_loss_definition": "clean_evaluation_cross_entropy",
+    "test_loss_definition": "clean_evaluation_cross_entropy"
+  },
+  "defense_cost": {
+    "time_metrics": [
+      "stage_training_seconds",
+      "total_pipeline_seconds"
+    ],
+    "gpu_memory_metrics": [
+      "model_storage_mb",
+      "gpu_peak_increment_mb",
+      "estimated_isolated_peak_gpu_mb",
+      "raw_process_peak_gpu_allocated_mb"
+    ],
+    "primary_gpu_memory_metric": "estimated_isolated_peak_gpu_mb",
+    "gpu_memory_estimation_formula": "model_storage_mb + gpu_peak_increment_mb",
+    "raw_peak_used_for_direct_comparison": false,
+    "ram_memory_reported": false
+  },
+  "pgd_grid": {
+    "alphas": [
+      0.00392156862745098,
+      0.00784313725490196,
+      0.011764705882352941
+    ],
+    "steps": [
+      10,
+      20,
+      40
+    ],
+    "restarts": 3,
+    "selection_split": "heldout_validation_from_official_train"
+  },
+  "eot": {
+    "models": [
+      "baseline",
+      "fgsm_at",
+      "pgd_at"
+    ],
+    "gradient_samples": 10,
+    "prediction_samples": 20,
+    "steps": 40,
+    "restarts": 3,
+    "full_test_set_required": true
+  },
+  "independent_transfer_surrogate": {
+    "trained_from_scratch": true,
+    "loads_target_weights": false,
+    "different_architecture_from_targets": true,
+    "generated_once_per_batch_for_all_targets": true,
+    "training_batch_sizes": {
+      "fashion_mnist": 2048,
+      "cifar10": 1024
+    },
+    "attack_batch_sizes": {
+      "fashion_mnist": 2048,
+      "cifar10": 1024
+    },
+    "models_remain_on_device": true,
+    "models_moved_to_cpu_between_stages": false
+  },
+  "autoattack": {
+    "version": "standard",
+    "components": [
+      "APGD-CE",
+      "APGD-T",
+      "FAB-T",
+      "Square"
+    ],
+    "full_test_set_required": true
+  },
+  "tcav": {
+    "models": [
+      "baseline",
+      "pgd_at"
+    ],
+    "random_reference_sets": 30,
+    "disjoint_class_sets": true,
+    "clean_correct_targets_only": true
+  },
+  "results_root": "q5_results_corrected_v7_fashion2048_cifar1024/full",
+  "report_ready": true
+}

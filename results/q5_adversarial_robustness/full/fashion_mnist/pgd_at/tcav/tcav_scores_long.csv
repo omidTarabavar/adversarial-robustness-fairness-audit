@@ -1,0 +1,61 @@
+dataset,model,target_class,target_name,concept,experimental_set,concept_sign_count,reference_sign_count,concept_magnitude,reference_magnitude
+fashion_mnist,pgd_at,9,Ankle boot,footwear,0-1,1.0,0.0,0.77876877784729,-0.77876877784729
+fashion_mnist,pgd_at,9,Ankle boot,footwear,0-28,1.0,0.0,0.693709671497345,-0.693709671497345
+fashion_mnist,pgd_at,9,Ankle boot,footwear,0-27,1.0,0.0,0.9355078935623169,-0.9355078935623169
+fashion_mnist,pgd_at,9,Ankle boot,footwear,0-26,1.0,0.0,0.6578971743583679,-0.6578971743583679
+fashion_mnist,pgd_at,9,Ankle boot,footwear,0-25,1.0,0.0,0.7453473210334778,-0.7453473210334778
+fashion_mnist,pgd_at,9,Ankle boot,footwear,0-24,1.0,0.0,0.43012112379074097,-0.43012112379074097
+fashion_mnist,pgd_at,9,Ankle boot,footwear,0-23,1.0,0.0,0.4164348244667053,-0.4164348244667053
+fashion_mnist,pgd_at,9,Ankle boot,footwear,0-22,1.0,0.0,0.8102947473526001,-0.8102947473526001
+fashion_mnist,pgd_at,9,Ankle boot,footwear,0-21,1.0,0.0,0.29976317286491394,-0.29976317286491394
+fashion_mnist,pgd_at,9,Ankle boot,footwear,0-20,1.0,0.0,0.8000693321228027,-0.8000693321228027
+fashion_mnist,pgd_at,9,Ankle boot,footwear,0-19,1.0,0.0,0.6249986290931702,-0.6249986290931702
+fashion_mnist,pgd_at,9,Ankle boot,footwear,0-18,1.0,0.0,0.6490302085876465,-0.6490302085876465
+fashion_mnist,pgd_at,9,Ankle boot,footwear,0-17,1.0,0.0,0.583937406539917,-0.583937406539917
+fashion_mnist,pgd_at,9,Ankle boot,footwear,0-16,1.0,0.0,0.44512438774108887,-0.44512438774108887
+fashion_mnist,pgd_at,9,Ankle boot,footwear,0-15,1.0,0.0,0.29412198066711426,-0.29412198066711426
+fashion_mnist,pgd_at,9,Ankle boot,footwear,0-14,1.0,0.0,0.6993532180786133,-0.6993532180786133
+fashion_mnist,pgd_at,9,Ankle boot,footwear,0-13,1.0,0.0,0.6848598122596741,-0.6848598122596741
+fashion_mnist,pgd_at,9,Ankle boot,footwear,0-12,1.0,0.0,0.42446303367614746,-0.42446303367614746
+fashion_mnist,pgd_at,9,Ankle boot,footwear,0-11,1.0,0.0,0.5186501145362854,-0.5186501145362854
+fashion_mnist,pgd_at,9,Ankle boot,footwear,0-10,1.0,0.0,0.47320476174354553,-0.47320476174354553
+fashion_mnist,pgd_at,9,Ankle boot,footwear,0-9,1.0,0.0,0.3938981294631958,-0.3938981294631958
+fashion_mnist,pgd_at,9,Ankle boot,footwear,0-8,1.0,0.0,0.336917519569397,-0.336917519569397
+fashion_mnist,pgd_at,9,Ankle boot,footwear,0-7,1.0,0.0,0.4408877491950989,-0.4408877491950989
+fashion_mnist,pgd_at,9,Ankle boot,footwear,0-6,1.0,0.0,0.6247629523277283,-0.6247629523277283
+fashion_mnist,pgd_at,9,Ankle boot,footwear,0-5,1.0,0.0,0.6426597833633423,-0.6426597833633423
+fashion_mnist,pgd_at,9,Ankle boot,footwear,0-4,1.0,0.0,0.508676290512085,-0.508676290512085
+fashion_mnist,pgd_at,9,Ankle boot,footwear,0-3,1.0,0.0,0.7036633491516113,-0.7036633491516113
+fashion_mnist,pgd_at,9,Ankle boot,footwear,0-2,1.0,0.0,0.39343470335006714,-0.39343470335006714
+fashion_mnist,pgd_at,9,Ankle boot,footwear,0-29,1.0,0.0,0.3804735243320465,-0.3804735243320465
+fashion_mnist,pgd_at,9,Ankle boot,footwear,0-30,1.0,0.0,1.1254382133483887,-1.1254382133483887
+fashion_mnist,pgd_at,0,T-shirt/top,footwear,0-1,0.0,1.0,-0.24254876375198364,0.24254876375198364
+fashion_mnist,pgd_at,0,T-shirt/top,footwear,0-28,0.0,1.0,-0.1962687224149704,0.1962687224149704
+fashion_mnist,pgd_at,0,T-shirt/top,footwear,0-27,0.0,1.0,-0.2142031341791153,0.2142031341791153
+fashion_mnist,pgd_at,0,T-shirt/top,footwear,0-26,0.0,1.0,-0.24104443192481995,0.24104443192481995
+fashion_mnist,pgd_at,0,T-shirt/top,footwear,0-25,0.0078125,0.9921875,-0.1574934422969818,0.1574934422969818
+fashion_mnist,pgd_at,0,T-shirt/top,footwear,0-24,0.0859375,0.9140625,-0.081429123878479,0.081429123878479
+fashion_mnist,pgd_at,0,T-shirt/top,footwear,0-23,0.1796875,0.8203125,-0.06718839704990387,0.06718839704990387
+fashion_mnist,pgd_at,0,T-shirt/top,footwear,0-22,0.7734375,0.2265625,0.07051929086446762,-0.07051929086446762
+fashion_mnist,pgd_at,0,T-shirt/top,footwear,0-21,0.0,1.0,-0.14647622406482697,0.14647622406482697
+fashion_mnist,pgd_at,0,T-shirt/top,footwear,0-20,0.0,1.0,-0.20193320512771606,0.20193320512771606
+fashion_mnist,pgd_at,0,T-shirt/top,footwear,0-19,0.6640625,0.3359375,0.019550422206521034,-0.019550422206521034
+fashion_mnist,pgd_at,0,T-shirt/top,footwear,0-18,0.0,1.0,-0.24661433696746826,0.24661433696746826
+fashion_mnist,pgd_at,0,T-shirt/top,footwear,0-17,0.0,1.0,-0.10855942219495773,0.10855942219495773
+fashion_mnist,pgd_at,0,T-shirt/top,footwear,0-16,0.0,1.0,-0.16397050023078918,0.16397050023078918
+fashion_mnist,pgd_at,0,T-shirt/top,footwear,0-15,0.46875,0.53125,-0.024342045187950134,0.024342045187950134
+fashion_mnist,pgd_at,0,T-shirt/top,footwear,0-14,0.109375,0.890625,-0.06672804802656174,0.06672804802656174
+fashion_mnist,pgd_at,0,T-shirt/top,footwear,0-13,0.0390625,0.9609375,-0.09973413497209549,0.09973413497209549
+fashion_mnist,pgd_at,0,T-shirt/top,footwear,0-12,0.015625,0.984375,-0.08351647108793259,0.08351647108793259
+fashion_mnist,pgd_at,0,T-shirt/top,footwear,0-11,0.0,1.0,-0.2241523265838623,0.2241523265838623
+fashion_mnist,pgd_at,0,T-shirt/top,footwear,0-10,0.0,1.0,-0.15370014309883118,0.15370014309883118
+fashion_mnist,pgd_at,0,T-shirt/top,footwear,0-9,0.3515625,0.6484375,-0.03513462468981743,0.03513462468981743
+fashion_mnist,pgd_at,0,T-shirt/top,footwear,0-8,0.0625,0.9375,-0.0849330872297287,0.0849330872297287
+fashion_mnist,pgd_at,0,T-shirt/top,footwear,0-7,0.09375,0.90625,-0.06747812032699585,0.06747812032699585
+fashion_mnist,pgd_at,0,T-shirt/top,footwear,0-6,0.0,1.0,-0.19337674975395203,0.19337674975395203
+fashion_mnist,pgd_at,0,T-shirt/top,footwear,0-5,0.0,1.0,-0.31884366273880005,0.31884366273880005
+fashion_mnist,pgd_at,0,T-shirt/top,footwear,0-4,0.4765625,0.5234375,-0.013646231032907963,0.013646231032907963
+fashion_mnist,pgd_at,0,T-shirt/top,footwear,0-3,0.015625,0.984375,-0.14140313863754272,0.14140313863754272
+fashion_mnist,pgd_at,0,T-shirt/top,footwear,0-2,0.0,1.0,-0.1586105078458786,0.1586105078458786
+fashion_mnist,pgd_at,0,T-shirt/top,footwear,0-29,0.5,0.5,-0.020188938826322556,0.020188938826322556
+fashion_mnist,pgd_at,0,T-shirt/top,footwear,0-30,0.859375,0.140625,0.08700720965862274,-0.08700720965862274

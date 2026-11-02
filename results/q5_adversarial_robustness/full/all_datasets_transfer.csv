@@ -1,0 +1,7 @@
+model,surrogate_model,surrogate_architecture,surrogate_is_independent,shared_target_weights,surrogate_clean_accuracy,white_box_pgd_accuracy,transfer_black_box_accuracy,white_box_attack_seconds,transfer_attack_seconds,transfer_batch_size,steps,restarts,white_box_n_samples,n_samples,max_linf,dataset
+baseline,independent_surrogate,FashionSurrogateCNN,True,False,0.7656,0.6275,0.8659,12.005317598999682,19.436446674000763,2048,40,5,10000,10000,0.03137257695198059,fashion_mnist
+fgsm_at,independent_surrogate,FashionSurrogateCNN,True,False,0.7656,0.7663,0.8721,12.085359029000756,19.436446674000763,2048,40,5,10000,10000,0.03137257695198059,fashion_mnist
+pgd_at,independent_surrogate,FashionSurrogateCNN,True,False,0.7656,0.7855,0.8614,12.066963630999453,19.436446674000763,2048,40,5,10000,10000,0.03137257695198059,fashion_mnist
+baseline,independent_surrogate,CifarSurrogateCNN,True,False,0.885,0.0001,0.3844,338.2930728600004,115.95317096299914,1024,40,5,10000,10000,0.03137257695198059,cifar10
+fgsm_at,independent_surrogate,CifarSurrogateCNN,True,False,0.885,0.2454,0.6462,338.93865220500084,115.95317096299914,1024,40,5,10000,10000,0.03137257695198059,cifar10
+pgd_at,independent_surrogate,CifarSurrogateCNN,True,False,0.885,0.344,0.598,338.42057092899995,115.95317096299914,1024,40,5,10000,10000,0.03137257695198059,cifar10

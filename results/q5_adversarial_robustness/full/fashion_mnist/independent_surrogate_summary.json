@@ -1,0 +1,11 @@
+{
+  "model": "independent_surrogate",
+  "architecture": "FashionSurrogateCNN",
+  "trained_from_scratch": true,
+  "loaded_target_weights": false,
+  "seed": 42,
+  "train_batch_size": 2048,
+  "clean_test_accuracy": 0.7656,
+  "clean_test_loss": 0.6778085571289062,
+  "test_samples": 10000
+}

@@ -1,0 +1,37 @@
+{
+  "dataset": "cifar10",
+  "selection_split": "heldout_validation_from_official_train",
+  "official_test_used_for_selection": false,
+  "validation_dataset_size": 512,
+  "search_samples": 512,
+  "strongest_validation_configuration": {
+    "search_split": "heldout_validation_from_official_train",
+    "official_test_used_for_selection": false,
+    "validation_dataset_size": 512,
+    "search_samples": 512,
+    "epsilon": 0.03137254901960784,
+    "alpha": 0.00392156862745098,
+    "steps": 10,
+    "restarts": 3,
+    "gradient_steps_per_sample": 30,
+    "robust_accuracy": 0.0,
+    "mean_linf": 0.03137257695198059,
+    "n_samples": 512,
+    "attack_seconds": 2.1376001789994916
+  },
+  "compute_aware_validation_configuration": {
+    "search_split": "heldout_validation_from_official_train",
+    "official_test_used_for_selection": false,
+    "validation_dataset_size": 512,
+    "search_samples": 512,
+    "epsilon": 0.03137254901960784,
+    "alpha": 0.00784313725490196,
+    "steps": 10,
+    "restarts": 3,
+    "gradient_steps_per_sample": 30,
+    "robust_accuracy": 0.0,
+    "mean_linf": 0.03137257695198059,
+    "n_samples": 512,
+    "attack_seconds": 2.1196163420008816
+  }
+}

@@ -1,0 +1,4 @@
+model,robust_accuracy,n_samples,full_test_set,suite_version,suite_components,mean_linf,max_linf,attack_seconds
+baseline,0.0001,10000,True,standard,"APGD-CE, APGD-T, FAB-T, Square",0.02533335590362549,0.03137257695198059,64.14461363900045
+fgsm_at,0.2169,10000,True,standard,"APGD-CE, APGD-T, FAB-T, Square",0.01441569881439209,0.03137257695198059,1055.3096335129994
+pgd_at,0.3073,10000,True,standard,"APGD-CE, APGD-T, FAB-T, Square",0.00960000867843628,0.03137257695198059,1237.3026236929982

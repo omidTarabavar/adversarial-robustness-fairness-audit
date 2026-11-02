@@ -1,0 +1,4 @@
+case_name,index,requested_group,actual_group,true_label,predicted_label,predicted_probability,correct_prediction,distance_to_threshold
+group_1_positive,8891,Female,Female,1,1,0.5077764276468231,True,0.00777642764682307
+group_1_negative,4876,Female,Female,0,0,0.49954674501033564,True,0.0004532549896643645
+group_2_negative,9631,Male,Male,0,0,0.4996652290393124,True,0.0003347709606876248

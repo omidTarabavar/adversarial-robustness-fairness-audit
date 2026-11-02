@@ -1,0 +1,21 @@
+{
+  "purpose": "Explicit EOT-PGD gradient-masking audit",
+  "dataset": "fashion_mnist",
+  "seed": 42,
+  "models": [
+    "baseline",
+    "fgsm_at",
+    "pgd_at"
+  ],
+  "epsilon": 0.03137254901960784,
+  "alpha_selected_on_validation": 0.00784313725490196,
+  "steps": 40,
+  "restarts": 3,
+  "eot_gradient_samples": 10,
+  "eot_prediction_samples": 20,
+  "test_samples_per_model": 10000,
+  "official_test_size": 10000,
+  "full_official_test_set": true,
+  "official_test_used_for_attack_selection": false,
+  "eot_executed_even_for_deterministic_models": true
+}

@@ -1,0 +1,18 @@
+{
+  "stage_training_seconds": 51.75261151900486,
+  "stage_wall_clock_seconds": 56.474551948000226,
+  "baseline_test_reporting_seconds": 4.721940428995367,
+  "seconds_per_epoch": 6.469076439875607,
+  "batch_size": 2048,
+  "device": "cuda",
+  "gpu_name": "NVIDIA GeForce RTX 3090",
+  "model_storage_mb": 1.7353973388671875,
+  "estimated_isolated_peak_gpu_mb": 727.3799285888672,
+  "gpu_memory_measurement_method": "model_storage_plus_peak_increment",
+  "primary_gpu_memory_metric": "estimated_isolated_peak_gpu_mb",
+  "gpu_allocated_at_stage_start_mb": 1.73779296875,
+  "gpu_reserved_at_stage_start_mb": 22.0,
+  "peak_gpu_allocated_mb": 727.38232421875,
+  "peak_gpu_reserved_mb": 1744.0,
+  "gpu_peak_increment_mb": 725.64453125
+}

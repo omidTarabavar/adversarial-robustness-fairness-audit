@@ -1,0 +1,8 @@
+{
+  "search_mode": "strict_anti_leveling_down",
+  "baseline_accuracy": 0.8644913627639156,
+  "baseline_recall": 0.6240641711229946,
+  "accuracy_tolerance": 0.03,
+  "recall_tolerance": 0.05,
+  "group_tpr_tolerance": 0.05
+}

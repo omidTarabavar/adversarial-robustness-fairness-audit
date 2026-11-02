@@ -1,0 +1,105 @@
+{
+  "seed": 42,
+  "execution_mode": "full",
+  "dataset": "Adult Income (OpenML version 2)",
+  "target": "income > 50K",
+  "target_labels": [
+    "<=50K",
+    ">50K"
+  ],
+  "sensitive_attributes": [
+    "sex",
+    "race"
+  ],
+  "models": [
+    "Logistic Regression",
+    "Random Forest"
+  ],
+  "model_parameters": {
+    "Logistic Regression": {
+      "C": 1.0,
+      "class_weight": null,
+      "dual": false,
+      "fit_intercept": true,
+      "intercept_scaling": 1,
+      "l1_ratio": null,
+      "max_iter": 2000,
+      "multi_class": "deprecated",
+      "n_jobs": null,
+      "penalty": "l2",
+      "random_state": 42,
+      "solver": "lbfgs",
+      "tol": 0.0001,
+      "verbose": 0,
+      "warm_start": false
+    },
+    "Random Forest": {
+      "bootstrap": true,
+      "ccp_alpha": 0.0,
+      "class_weight": null,
+      "criterion": "gini",
+      "max_depth": null,
+      "max_features": "sqrt",
+      "max_leaf_nodes": null,
+      "max_samples": null,
+      "min_impurity_decrease": 0.0,
+      "min_samples_leaf": 2,
+      "min_samples_split": 2,
+      "min_weight_fraction_leaf": 0.0,
+      "monotonic_cst": null,
+      "n_estimators": 300,
+      "n_jobs": -1,
+      "oob_score": false,
+      "random_state": 42,
+      "verbose": 0,
+      "warm_start": false
+    }
+  },
+  "bias_mitigation_methods": [
+    "Reweighing by sex and target",
+    "Validation-selected sex-specific threshold adjustment"
+  ],
+  "selected_group_thresholds": {
+    "Female": 0.32,
+    "Male": 0.5,
+    "__default__": 0.5
+  },
+  "threshold_search_metadata": {
+    "search_mode": "strict_anti_leveling_down",
+    "baseline_accuracy": 0.8644913627639156,
+    "baseline_recall": 0.6240641711229946,
+    "accuracy_tolerance": 0.03,
+    "recall_tolerance": 0.05,
+    "group_tpr_tolerance": 0.05
+  },
+  "fairness_gap_definition": "max-minus-min range across retained groups; Equalized Odds Difference is max(TPR range, FPR range)",
+  "harm_score_weights": {
+    "false_negative_burden": 0.6,
+    "selection_shortfall": 0.25,
+    "calibration_burden": 0.15
+  },
+  "harm_score_disclaimer": "Context-specific descriptive opportunity-burden score; not a standard fairness metric",
+  "counterfactual_immutable_features": [
+    "sex",
+    "race",
+    "age"
+  ],
+  "counterfactual_mutable_model_columns": [
+    "education",
+    "education-num",
+    "hours-per-week",
+    "capital-gain"
+  ],
+  "counterfactual_education_synchronization": true,
+  "minimum_intersection_size": 30,
+  "train_size": 31258,
+  "validation_size": 7815,
+  "test_size": 9769,
+  "software_versions": {
+    "python": "3.10.20",
+    "numpy": "2.2.6",
+    "pandas": "2.3.3",
+    "scikit_learn": "1.7.2",
+    "shap": "0.49.1"
+  }
+}
